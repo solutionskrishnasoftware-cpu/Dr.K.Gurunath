@@ -30,7 +30,7 @@
         .btn {
             display: inline-block;
             padding: 12px 25px;
-            background: #2a6cc9;
+            background: #c92a3f;
             color: white;
             border-radius: 30px;
             text-decoration: none;
@@ -69,7 +69,7 @@
             transform: translateX(-50%);
             width: 80px;
             height: 4px;
-            background: #2a6cc9;
+            background: #cf1b1b;
             border-radius: 2px;
         }
         
@@ -80,123 +80,7 @@
             margin: 0 auto;
         }
         
-        /* Header Styles */
-        header {
-            background: linear-gradient(135deg, #1a3e6a 0%, #2a6cc9 100%);
-            color: white;
-            padding: 15px 0;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-            animation: slideDown 0.5s ease-out;
-        }
-        
-        @keyframes slideDown {
-            from {
-                transform: translateY(-100%);
-            }
-            to {
-                transform: translateY(0);
-            }
-        }
-        
-        .header-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .logo {
-            display: flex;
-            align-items: center;
-        }
-        
-        .logo i {
-            font-size: 2.5rem;
-            color: #ff6b6b;
-            margin-right: 10px;
-            animation: heartbeat 2s infinite;
-        }
-        
-        @keyframes heartbeat {
-            0% { transform: scale(1); }
-            5% { transform: scale(1.1); }
-            10% { transform: scale(1); }
-            15% { transform: scale(1.1); }
-            20% { transform: scale(1); }
-            100% { transform: scale(1); }
-        }
-        
-        .logo h1 {
-            font-size: 1.8rem;
-            font-weight: 700;
-        }
-        
-        .logo span {
-            color: #4ecdc4;
-        }
-        
-        nav ul {
-            display: flex;
-            list-style: none;
-        }
-        
-        nav ul li {
-            margin-left: 25px;
-            position: relative;
-        }
-        
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-weight: 500;
-            transition: all 0.3s ease;
-            padding: 5px 10px;
-            border-radius: 4px;
-        }
-        
-        nav ul li a:hover {
-            color: #4ecdc4;
-            background: rgba(255, 255, 255, 0.1);
-        }
-        
-        nav ul li a::after {
-            content: '';
-            position: absolute;
-            bottom: -5px;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: #4ecdc4;
-            transition: width 0.3s ease;
-        }
-        
-        nav ul li a:hover::after {
-            width: 100%;
-        }
-        
-        .emergency-contact {
-            text-align: right;
-        }
-        
-        .emergency-contact p {
-            font-size: 0.9rem;
-            margin-bottom: 5px;
-        }
-        
-        .emergency-number {
-            font-size: 1.2rem;
-            font-weight: 700;
-            color: #ff6b6b;
-            animation: pulse 2s infinite;
-        }
-        
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-            100% { transform: scale(1); }
-        }
+       
         
         /* Hero Section */
         .hero {
@@ -298,7 +182,7 @@
         
         .service-icon i {
             font-size: 3rem;
-            color: #2a6cc9;
+            color: #c92a3f;
             transition: transform 0.5s ease;
         }
         
@@ -599,7 +483,7 @@
         .face-title {
             font-size: 2.5rem;
             font-weight: 800;
-            margin-bottom: 20px;
+            margin-bottom: 20px;    
             color: #1a3e6a;
             position: relative;
         }
@@ -1012,85 +896,7 @@
                 font-size: 18px;
             }
         }
-          /* Footer */
-        footer {
-            background: #0f2a47;
-            color: var(--white);
-            padding: 70px 0 0;
-        }
-        
-        .footer-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 40px;
-        }
-        
-        .footer-col h3 {
-            font-size: 1.4rem;
-            margin-bottom: 25px;
-            position: relative;
-            padding-bottom: 10px;
-        }
-        
-        .footer-col h3::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 50px;
-            height: 3px;
-            background: var(--primary-blue);
-        }
-        
-        .footer-col p {
-            margin-bottom: 20px;
-        }
-        
-        .footer-contact li {
-            margin-bottom: 15px;
-            display: flex;
-            align-items: center;
-        }
-        
-        .footer-contact li i {
-            margin-right: 10px;
-            color: var(--accent-teal);
-            font-size: 1.2rem;
-        }
-        
-        .footer-links li {
-            margin-bottom:2px;
-            list-style: none;
-        }
-        
-        .footer-links li a {
-            color: #ccc;
-            text-decoration: none;
-            transition: var(--transition);
-        }
-        
-        .footer-links li a:hover {
-            color: var(--white);
-            padding-left: 5px;
-        }
-        
-        .footer-hours li {
-            margin-bottom: 12px;
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        .footer-hours li span {
-            color: #ccc;
-        }
-        
-        .copyright {
-            text-align: center;
-            padding: 20px 0;
-            margin-top: 50px;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        
+      
         /* Confirmation Message */
         .confirmation {
             text-align: center;
@@ -1123,30 +929,9 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
-        <div class="container header-container">
-            <div class="logo">
-                <i class="fas fa-heartbeat"></i>
-                <h1>Heart<span>Care</span></h1>
-            </div>
-            
-            <nav>
-                <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="about.php">About Us</a></li>
-                    <li><a href="services.php">Services</a></li>
-                    <li><a href="doctors.php">Doctors</a></li>
-                    <li><a href="appointment.php" class="active">Appointment</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                </ul>
-            </nav>
-            
-            <div class="emergency-contact">
-                <p>Emergency Line</p>
-                <p class="emergency-number">0788 2294377</p>
-            </div>
-        </div>
-    </header>
+ 
+  <?php include 'header.php'; ?>
+
 
     <!-- Hero Section -->
     <section class="hero">
